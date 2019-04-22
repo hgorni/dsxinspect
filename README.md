@@ -9,8 +9,8 @@ Usage is as follows:
 
 dsxinspect -f <path to file> -q <term> [-o <directory>] [-c]
   
-  -f path to the .dsx file containing the job exports (e.g. /backup/datastage_full_project.dsx)
-  -q search term (e.g. CORPDW.SALES_FACTS) or a regular expression (e.g. 'FROM\s+CORPDW\.SALES_[A-Z]+\s+')
-  -o (optional) for every job containing the searched term a .dsx file containing the full job definition is written to this directory
-  -c (optional) makes the search case-sensitive
+*  -f path to the .dsx file containing the job exports (e.g. /backup/datastage_full_project.dsx)
+*  -q search term (e.g. CORPDW.SALES_FACTS) or a regular expression (e.g. 'FROM\s+CORPDW\.SALES_[A-Z]+\s+')
+*  -o (optional) for every job containing the searched term a .dsx file containing the full job definition is written to this directory
+*  -c (optional) makes the search case-sensitive
   
