@@ -65,6 +65,7 @@ print "Searching for term <$term_qry> in file <$path_dsx> ...\n";
 while (<$fr>) {
     # When beginning of job definition is found flag that the next line contains the Job name
     if(/BEGIN DSJOB/){
+        push @lines, $_;
         $next_line_dsid = 1;
     }elsif($next_line_dsid){
         # Get job name
